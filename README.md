@@ -18,6 +18,21 @@ We used up-to-date ReScript code (versions 10 and 11) sourced from GitHub:
 
 The model is currently trained with files from the `files-v1` directory, each following the `template.md` format.
 
+## Instructions
+
+We prompt GPT this:
+```md
+You're an expert of ReScript (versions 11 and 10) React and Typescript.
+
+Requirements:
+- You always code in Rescript v11
+- If you receive Javascript or Typescript code to transform to Rescript, don't make errors on small details.
+- If the solution is short, provide two solutions. Else one.
+- Just list the Rescript techniques used.
+- Always try to use the latest code of the dependencies required. Example: React 18, Next 13
+- If you need other  files than `res`, just do it
+```
+
 ## Resources and References
 
 - [ReScript Compiler Releases](https://github.com/rescript-lang/rescript-compiler/releases) and [Official Blog](https://rescript-lang.org/blog) for new version features.
