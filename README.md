@@ -12,6 +12,7 @@ The generic GPT-4 showed limitations in coding with ReScript, especially for ver
 
 We used up-to-date ReScript code (versions 10 and 11) sourced from GitHub:
 
+- **Offical Website**: [rescript-lang.org](https://rescript-lang.org/) that has the markdown files on this [repository](https://github.com/rescript-association/rescript-lang.org/).
 - **Generic Code**: `path:package.json rescript "11.0"`. Try it [here](https://github.com/search?utf8=%E2%9C%93&q=path%3Apackage.json+rescript+%2211.0%22&type=code).
 - **Frontend Code**: `path:package.json rescript "11.0" "rescript/react" tailwind`, `path:rescript.json react`
 - **Backend Code**: `path:package.json rescript "11.0" rescript-bun`, `path:rescript.json rescript-bun`
