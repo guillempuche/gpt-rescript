@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "markdown-to-pdf-converter"
+version = "0.0.1"
+description = "A tool to convert Markdown files to a single PDF."
+authors = ["Your Name <youremail@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+markdown2 = "^2.4.0"
+weasyprint = "^53.0"
+markdown = "^3.5.1"
+pdfkit = "^1.0.0"
+md2pdf = "^1.0.1"
+pypandoc = "^1.12"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
